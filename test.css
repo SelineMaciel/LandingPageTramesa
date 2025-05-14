@@ -1,0 +1,29 @@
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.services {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.service {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.service img {
+  width: 100% !important;
+  max-height: 350px !important;
+  height: auto !important;
+  object-fit: contain !important;
+  border: 2px solid #1d3557;
+  border-radius: 8px;
+}
